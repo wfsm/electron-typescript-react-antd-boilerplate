@@ -1,3 +1,4 @@
 ## Electron, React, Typescript, Ant-design boilerplate
-**based on Rath96/electron-react-typescript-boilerplate**
+_based on Rath96/electron-react-typescript-boilerplate_
+
 **only for personal use now**
