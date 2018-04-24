@@ -1,8 +1,8 @@
 {
-  "name": "electron-react-typescript-boilerplate",
-  "productName": "ElectronReactTypescript",
-  "version": "0.10.0",
-  "description": "Electron application boilerplate based on TypeScript, React, React Router, Webpack, React Hot Loader for rapid application development",
+  "name": "electron-typescript-react-antd-boilerplate",
+  "productName": "ElectronTypescriptReactAntd",
+  "version": "0.0.1",
+  "description": "Electron application boilerplate based on TypeScript, React, React Router, Redux, Webpack, React Hot Loader, Ant-Design for rapid application development",
   "main": "main.js",
   "scripts": {
     "test": "cross-env NODE_ENV=test node --trace-warnings ./test/runTests.js",
@@ -44,8 +44,8 @@
     ]
   },
   "build": {
-    "productName": "ElectronReactTypescript",
-    "appId": "io.github.irath96.ElectronReactTypescript",
+    "productName": "ElectronTypescriptReactAntd",
+    "appId": "io.github.wfsm77.ElectronTypescriptReactAntd",
     "dmg": {
       "contents": [
         {
@@ -88,27 +88,28 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/irath96/electron-react-typescript-boilerplate.git"
+    "url": "git+https://github.com/wfsm/electron-typescript-react-antd-boilerplate.git"
   },
   "author": {
-    "name": "Alexander Rath",
-    "email": "irath96@gmail.com",
-    "url": "https://github.com/irath96"
+    "name": "Lei Wang",
+    "email": "wfsm77@gmail.com",
+    "url": "https://github.com/wfsm77"
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/irath96/electron-react-typescript-boilerplate/issues"
+    "url": "https://github.com/wfsm/electron-typescript-react-antd-boilerplate/issues"
   },
   "keywords": [
     "electron",
     "boilerplate",
     "react",
     "react-router",
-    "flux",
     "webpack",
-    "react-hot"
+    "react-hot",
+    "redux",
+    "ant-design"
   ],
-  "homepage": "https://github.com/irath96/electron-react-typescript-boilerplate#readme",
+  "homepage": "https://github.com/wfsm/electron-typescript-react-antd-boilerplate#readme",
   "devDependencies": {
     "@types/enzyme": "^3.1.1",
     "@types/history": "^4.5.2",
@@ -178,7 +179,7 @@
     "source-map-support": "^0.5.0"
   },
   "devEngines": {
-    "node": ">=6.x",
-    "npm": ">=3.x"
+    "node": ">=8.x",
+    "npm": ">=5.x"
   }
 }
