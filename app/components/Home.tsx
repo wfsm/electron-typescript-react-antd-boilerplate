@@ -1,16 +1,15 @@
 import * as React from 'react';
-import {Card, Button} from 'antd';
+import { Link } from 'react-router-dom';
 
-const styles = require('./Home.less');
+let styles = require('./Home.less');
 
 export default class Home extends React.Component {
   render() {
     return (
       <div>
         <div className={styles.container} data-tid="container">
-          <Card>
-            <Button type="primary">test</Button>
-          </Card>
+          <h2>Home</h2>
+          <Link to="/counter">to Counter</Link>
         </div>
       </div>
     );
